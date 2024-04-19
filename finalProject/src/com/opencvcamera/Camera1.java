@@ -75,7 +75,7 @@ public class Camera1 extends Thread implements ActionListener {
         MatOfRect faceDetections = new MatOfRect();
 
         CascadeClassifier faceCascade = new CascadeClassifier();
-        faceCascade.load("C:\\Users\\ashis\\eclipse-workspace\\finalProject\\haarcascade_frontalface_default.xml"); // Make sure to provide the correct path
+        faceCascade.load("finalProject\\haarcascade_frontalface_default.xml"); // Make sure to provide the correct path
 
         BufferedImage bufferedImage;
 
